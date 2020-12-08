@@ -76,7 +76,7 @@ Official Pytorch based implementation.
 |PFFNet | 20.32 / 0.85 | 27.65 / 0.91 | 10.75 / 0.50 | 11.55 / 0.52 |
 |Ours | 26.90 / 0.76 | 30.40 / 0.94 | 13.36 / 0.52 | 12.68 / 0.52 |
 
-### Trained on Real (NTIRE-19) dataset ->  [Trained_Models]()
+### Trained on Real (NTIRE-19) dataset ->  [Trained_Models](https://github.com/PS06/DIDH/releases/download/ntire_19_v1.0/ntire_19.zip)
 | Model  | SOTS-IN (PSNR / SSIM)| SOTS-OUT (PSNR / SSIM) | NTIRE-19 (PSNR / SSIM) | NTIRE-20 (PSNR / SSIM)|
 |--------|:----------:|:----------:|:----------:|:----------:|
 |DuRN-US | 11.44 / 0.59 | 13.05 / 0.61 | 13.63 / 0.57 | 12.97 / 0.52 |
