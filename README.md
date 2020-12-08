@@ -13,9 +13,16 @@ Official Pytorch based implementation.
 #
 ## Results
 
-![Standard Performance Evaluation of different Dehazing algorithms on NTIRE-19 dataset](Images/1.png)
+<p align="center">
+    <img src="Images/1.png"/>
+    <em>Standard Performance Evaluation of different Dehazing algorithms on NTIRE-19 dataset</em>
+</p>
 
-![Blind Evaluation of different Dehazing algorithms on NTIRE-18 dataset](Images/2.png)
+
+<p align="center">
+    <img src="Images/2.png"/>
+    <em>Blind Evaluation of different Dehazing algorithms on NTIRE-18 dataset</em>
+</p>
 
 #
 ### Dependencies and Installation
@@ -47,7 +54,7 @@ Official Pytorch based implementation.
 ### Trained on Synthetic (RESIDE-Indoor) dataset ->  [Trained_Models]()
 
 | Model  | SOTS-IN (PSNR / SSIM)| SOTS-OUT (PSNR / SSIM) | NTIRE-19 (PSNR / SSIM) | NTIRE-20 (PSNR / SSIM)|
-|--------|:----------:|:----------:|:----------:|:----------:|:----------:|
+|--------|:----------:|:----------:|:----------:|:----------:|
 |DuRN-US | 32.12 / 0.98 | 19.55 / 0.83 | 10.81 / 0.51 | 11.27 / 0.51 |
 |FFA-Net | 36.36 / 0.98 | 20.05 / 0.84 | 10.97 / 0.42 | 10.70 / 0.44 |
 |Wavelet-UNet | 20.02 / 0.75 | 17.75 / 0.67 | 11.48 / 0.47 | 10.88 / 0.36|
@@ -59,7 +66,7 @@ Official Pytorch based implementation.
 
 ### Trained on Synthetic (RESIDE-Outdoor) dataset ->  [Trained_Models]()
 | Model  | SOTS-IN (PSNR / SSIM)| SOTS-OUT (PSNR / SSIM) | NTIRE-19 (PSNR / SSIM) | NTIRE-20 (PSNR / SSIM)|
-|--------|:----------:|:----------:|:----------:|:----------:|:----------:|
+|--------|:----------:|:----------:|:----------:|:----------:|
 |DuRN-US | 15.95 / 0.76 | 19.41 / 0.81 | 11.04 / 0.51 | 11.73 / 0.46 |
 |FFA-Net | 18.96 / 0.86 | 30.88 / 0.93 | 9.64 / 0.50 | 10.90 / 0.48 | 
 |Wavelet-UNet | 16.26 / 0.73 | 21.95 / 0.76 | 10.36 / 0.49 | 11.05 / 0.43 |
@@ -71,7 +78,7 @@ Official Pytorch based implementation.
 
 ### Trained on Real (NTIRE-19) dataset ->  [Trained_Models]()
 | Model  | SOTS-IN (PSNR / SSIM)| SOTS-OUT (PSNR / SSIM) | NTIRE-19 (PSNR / SSIM) | NTIRE-20 (PSNR / SSIM)|
-|--------|:----------:|:----------:|:----------:|:----------:|:----------:|
+|--------|:----------:|:----------:|:----------:|:----------:|
 |DuRN-US | 11.44 / 0.59 | 13.05 / 0.61 | 13.63 / 0.57 | 12.97 / 0.52 |
 |FFA-Net | 12.16 / 0.55 | 14.36 / 0.59 | 14.01 / 0.56 | 14.71 / 0.57 |
 |Wavelet-UNet | 13.57 / 0.41 | 13.05 / 0.44 | 12.85 / 0.39 | 12.08 / 0.24 | 
@@ -83,7 +90,7 @@ Official Pytorch based implementation.
 
 ### Trained on Real (NTIRE-20) dataset ->  [Trained_Models]()
 | Model  | SOTS-IN (PSNR / SSIM)| SOTS-OUT (PSNR / SSIM) | NTIRE-19 (PSNR / SSIM) | NTIRE-20 (PSNR / SSIM)|
-|--------|:----------:|:----------:|:----------:|:----------:|:----------:|
+|--------|:----------:|:----------:|:----------:|:----------:|
 |DuRN-US | 9.43 / 0.63 | 11.92 / 0.66 | 11.63 / 0.52 | 15.27 / 0.50 |
 |FFA-Net | 9.96 / 0.63 | 14.88 / 0.75 | 12.43 / 0.52 | 18.11 / 0.66 |
 |Wavelet-UNet | 12.04 / 0.32 | 13.85 / 0.41 | 11.46 / 0.28 | 12.08 / 0.21 |
@@ -95,7 +102,7 @@ Official Pytorch based implementation.
 
 ### Trained on Aggregated dataset ->  [Trained_Models]()
 | Model  | SOTS-IN (PSNR / SSIM)| SOTS-OUT (PSNR / SSIM) | NTIRE-19 (PSNR / SSIM) | NTIRE-20 (PSNR / SSIM)|
-|--------|:----------:|:----------:|:----------:|:----------:|:----------:|
+|--------|:----------:|:----------:|:----------:|:----------:|
 |DuRN-US | 26.80 / 0.95 | 29.59 / 0.91 | 15.96 / 0.61 | 19.88 / 0.69 |
 |FFA-Net | 19.15 / 0.85 | 25.53 / 0.89 | 14.06 / 0.54 | 15.93 / 0.59 |
 |Wavelet-UNet | 15.46 / 0.65  | 19.21 / 0.67 | 12.23 / 0.51 | 12.66 / 0.42 |
